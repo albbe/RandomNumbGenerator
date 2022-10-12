@@ -1,0 +1,24 @@
+public class RandomTester
+{
+
+    // 6.1 Your goal is to generate an ArrayList containing n random numbers.
+    public static ArrayList<Integer> generateNumbers(int n)
+    {
+        ArrayList<Integer> generateNumbers = new ArrayList<Integer>();
+        {
+            int value = random.nextInt(2);
+            String valueWord = (value == 0) ? "zero" : "one";
+            // Every time you run this example, it should produce new numbers
+            for (Integer number : generateNumbers) 
+            {
+                return generateNumbers;
+            }
+        }
+    }
+ //6.2 Add a method in RandomTester that creates a shuffled, deep copy of a provided ArrayList. The method should not modify the list that is provided as an argument. Instead, create a new list that contains all the same elements as the original list in a random order. 
+ public static ArrayList<Integer> shuffle(ArrayList<Integer> list)
+ {
+
+ }
+
+}
